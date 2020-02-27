@@ -5,37 +5,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/e5e48257d9.js" crossorigin="anonymous"></script>
+    <title>BRAND</title>
 </head>
 
 <body>
-    <header>
+    <header class="center">
         <div class="left__side">
-            <img src="img/logo.png" alt="logo"><span class="brand">BRAN</span>
+            <img src="img/logo.png" alt="logo"><span class="brand">BRAN<span>D</span></span>
             <form action="#">
-                <button type="submit" value="Browse">Browse
-                    <select name="browse_select">
-                        <option value="first">First</option>
-                        <option value="second">Second</option>
-                    </select>
-                </button>
-                <input type="text" placeholder="Search For Item...">
-                <button><img src="img/search.png" alt="search"></button>
+                <button class="browse_button button">Browse <i class="fas fa-caret-down"></i></button>
+                <input type="text" placeholder="Search For Item..." class="search_bar">
+                <button type="submit" class="search_button button"><img src="img/search.png" alt="search"></button>
             </form>
         </div>
         <div class="right__side">
             <form action="#">
                 <img src="img/cart.png" alt="cart">
-                <button type="submit" value="Browse">My Account
-                    <select name="browse_select">
-                        <option value="first">First</option>
-                        <option value="second">Second</option>
-                    </select>
-                </button>
+                <button type="submit" class="my_account pink_button button">My Account <i
+                        class="fas fa-caret-down"></i></button>
             </form>
         </div>
     </header>
-    <div class="content"></div>
+    <div class="menu center">
+        <ul class="menu__list">
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">MAN</a></li>
+            <li><a href="#">WOMEN</a></li>
+            <li><a href="#">KIDS</a></li>
+            <li><a href="#">Accoseriese</a></li>
+            <li><a href="#">Featured</a></li>
+            <li><a href="#">Hot Deals</a></li>
+        </ul>
+    </div>
+    <div class="content center"></div>
     <footer></footer>
 </body>
 
