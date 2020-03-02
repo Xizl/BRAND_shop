@@ -374,7 +374,8 @@ header {
 }
 
 .banner {
-    background-image: url(img/banner_shadow.png.png), url(img/banner.png) ;
+    background-image: url(img/banner.png), url(img/banner_shadow.png.png);
+    background-blend-mode: lighten; 
     width: 767px;
     color: #ffffff;
     letter-spacing: 0.03em; 
@@ -384,8 +385,7 @@ header {
 .banner>h1 {
     /*Text styles for "30%" */ 
     font-size: 54px;
-    font-weight: bold;
-    
+    font-weight: bold;    
     margin-top: 146px;
 }
 
