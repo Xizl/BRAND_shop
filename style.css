@@ -295,7 +295,7 @@ header {
     color: #9f9f9f;
 }
 
-.product a {
+.browse_all_product {
     padding: 18px 24px;
     margin-top: 50px;    
 }
@@ -323,7 +323,7 @@ header {
 
 .card_img>button {
     height: 39px;
-    width: 123px;   
+    width: 130px;   
     background-color: transparent;
     font-size: 13px;
     font-weight: bold;
@@ -347,6 +347,14 @@ header {
     font-size: 14px;
     color: #222222;    
     text-transform: uppercase;
+}
+
+.card_text a {
+    color: #222222;
+}
+
+.add_cart:hover {
+    box-shadow: 0 0 6px #fff;
 }
 
 .card_text span {
@@ -474,8 +482,7 @@ header {
     font-weight: bold;
     color: #f16d7f;  
     margin-top: 6px; 
-    margin-bottom: -12px;  
-    font-style: 
+    margin-bottom: -12px;    
 }
 
 .comment>span {
@@ -556,7 +563,13 @@ header {
 
 .general_info {
     height: 349px;
-    margin-top: 109px;    
+    margin-top: 109px;  
+    display: flex;  
+    justify-content: space-between;
+}
+
+.info {
+    width: 430px;
 }
 
 .info p {
@@ -571,6 +584,30 @@ header {
     display: flex;
     align-items: center;
     margin-bottom: 29px;
+}
+
+.link_list {    
+    font-size: 16px;
+    color: #898989;    
+    letter-spacing: 0.03em;
+    line-height: 42px;
+}
+
+.link_list h2 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #f16d7f;    
+    line-height: 26px;
+    text-transform: uppercase;
+    margin-bottom: 45px;
+}
+
+.link_list ul {
+    list-style: none;
+}
+
+.link_list a {
+    color: #898989;   
 }
 
 .footer {
@@ -612,5 +649,4 @@ header {
     color: #f7f7f8;
     background-color: #f16d7f;
 }
-
 

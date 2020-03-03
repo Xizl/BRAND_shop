@@ -1,0 +1,31 @@
+.breadcrumb {
+    height: 148px;
+    background-color: #f8f3f4;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.breadcrumb h1 {
+    font-size: 24px;
+    font-weight: 900;
+    color: #f16d7f;
+    text-align: left;
+    line-height: 20px;
+    text-transform: uppercase;
+}
+
+.breadcrumb h3 {
+    /*Text styles for "Home / Men" */    
+    font-size: 14px;
+    font-weight: 300;
+    color: #636363;    
+    line-height: 20px;
+    text-transform: uppercase;
+}
+
+.breadcrumb h3>span {
+    /*Text styles for "New Arriva" */
+    font-weight: bold;
+    color: #f16d7f; 
+}
