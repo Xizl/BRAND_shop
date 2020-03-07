@@ -14,30 +14,134 @@
 <body>
     <header class="center">
         <div class="left__side">
-            <a href="#"><img src="img/logo.png" alt="logo"><span class="brand">BRAN<span>D</span></span></a>
+            <a href="index.html"><img src="img/logo.png" alt="logo"><span class="brand">BRAN<span>D</span></span></a>
+            <button class="browse_button button">Browse <i class="fas fa-caret-down"></i></button>
+            <div class="drop_down_browse_menu">
+                <h3>Women</h3>
+                <ul>
+                    <li><a href="#">Dresses</a></li>
+                    <li><a href="#">Tops</a></li>
+                    <li><a href="#">Sweaters/Knits</a></li>
+                    <li><a href="#">Jackets/Coats</a></li>
+                    <li><a href="#">Blazers</a></li>
+                    <li><a href="#">Denim</a></li>
+                    <li><a href="#">Leggings/Pants</a></li>
+                    <li><a href="#">Skirts/Shorts</a></li>
+                    <li><a href="#">Accessories</a></li>
+                </ul>
+                <br>
+                <h3>Men</h3>
+                <ul>
+                    <li><a href="#">Tees/Tank tops</a></li>
+                    <li><a href="#">Shirts/Polos</a></li>
+                    <li><a href="#">Sweaters</a></li>
+                    <li><a href="#">Sweatshirts/Hoodies</a></li>
+                    <li><a href="#">Blazers</a></li>
+                    <li><a href="#">Jackets/vests</a></li>
+                </ul>
+            </div>
             <form action="#">
-                <button class="browse_button button">Browse <i class="fas fa-caret-down"></i></button>
                 <input type="text" placeholder="Search For Item..." class="search_bar">
                 <button type="submit" class="search_button button"><img src="img/search.png" alt="search"></button>
             </form>
         </div>
         <div class="right__side">
-            <form action="#">
-                <img src="img/cart.png" alt="cart">
-                <button type="submit" class="my_account pink_button button">My Account <i
-                        class="fas fa-caret-down"></i></button>
-            </form>
+            <img src="img/cart.png" alt="cart">
+            <div class="cart_items_number">2</div>
+            <button type="submit" class="my_account pink_button button">My Account <i class="fas fa-caret-down"></i>
+            </button>
+            <div class="my_account_drop_down_menu">
+                <div class="items_container">
+                    <div class="item">
+                        <a href=""><img src="img/my_cart_good1.png" alt="item"></a>
+                        <div class="item_description">
+                            <h5>rebox zane</h5>
+                            <span class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                    class="fas fa-star"></i><i class="fas fa-star-half-alt"></i><i
+                                    class="far fa-star"></i>
+                            </span>
+                            <span class="item_count">1</span> <span class="x">x</span> <span
+                                class="num_price">$250</span>
+                        </div>
+                        <a href="#" class="close_item"><i class="fas fa-times-circle"></i></a>
+                    </div>
+                    <div class="item">
+                        <a href=""><img src="img/my_cart_good2.png" alt="item"></a>
+                        <div class="item_description">
+                            <h5>rebox zane</h5>
+                            <span class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                    class="fas fa-star"></i><i class="fas fa-star-half-alt"></i><i
+                                    class="far fa-star"></i>
+                            </span>
+                            <span class="item_count">1</span> <span class="x">x</span> <span
+                                class="num_price">$250</span>
+                        </div>
+                        <a href="#" class="close_item"><i class="fas fa-times-circle"></i></a>
+                    </div>
+                </div>
+                <div class="total_sum">
+                    <h3>total</h3>
+                    <h3 class="total_price">$500.00</h3>
+                </div>
+                <a href="#" class="my_account_drop_down_menu_button">checkout</a>
+                <a href="#" class="my_account_drop_down_menu_button">go to cart</a>
+            </div>
         </div>
     </header>
     <nav class="menu center">
         <ul class="menu__list">
-            <li><a href="index.html">HOME</a></li>
-            <li><a href="product.html">MEN</a></li>
-            <li><a href="#">WOMEN</a></li>
-            <li><a href="#">KIDS</a></li>
-            <li><a href="#">accessories</a></li>
-            <li><a href="#">Featured</a></li>
-            <li><a href="#">Hot Deals</a></li>
+            <li><a href="index.html" class="nav_option">HOME</a></li>
+            <li><a href="product.html" class="nav_option">MEN</a></li>
+            <li><a href="#" class="women_menu nav_option">WOMEN</a>
+                <div class="drop_mega_menu">
+                    <div class="drop__column">
+                        <h3 class="drop__h3">Women</h3>
+                        <ul class="drop__ul">
+                            <li><a href="#" class="drop__link">Dresses</a></li>
+                            <li><a href="#" class="drop__link">Tops</a></li>
+                            <li><a href="#" class="drop__link">Sweaters/Knits</a></li>
+                            <li><a href="#" class="drop__link">Jackets/Coats</a></li>
+                            <li><a href="#" class="drop__link">Blazers</a></li>
+                            <li><a href="#" class="drop__link">Denim</a></li>
+                            <li><a href="#" class="drop__link">Leggings/Pants</a></li>
+                            <li><a href="#" class="drop__link">Skirts/Shorts</a></li>
+                            <li><a href="#" class="drop__link">Accessories</a></li>
+                        </ul>
+                    </div>
+                    <div class="drop__column">
+                        <h3 class="drop__h3">Women</h3>
+                        <ul class="drop__ul">
+                            <li><a href="#" class="drop__link">Dresses</a></li>
+                            <li><a href="#" class="drop__link">Tops</a></li>
+                            <li><a href="#" class="drop__link">Sweaters/Knits</a></li>
+                            <li><a href="#" class="drop__link">Jackets/Coats</a></li>
+                        </ul>
+                        <h3 class="drop__h3">Women</h3>
+                        <ul class="drop__ul">
+                            <li><a href="#" class="drop__link">Dresses</a></li>
+                            <li><a href="#" class="drop__link">Tops</a></li>
+                            <li><a href="#" class="drop__link">Sweaters/Knits</a></li>
+
+                        </ul>
+                    </div>
+                    <div class="drop__column">
+                        <h3 class="drop__h3">Women</h3>
+                        <ul class="drop__ul">
+                            <li><a href="#" class="drop__link">Dresses</a></li>
+                            <li><a href="#" class="drop__link">Tops</a></li>
+                            <li><a href="#" class="drop__link">Sweaters/Knits</a></li>
+                            <li><a href="#" class="drop__link">Jackets/Coats</a></li>
+                        </ul>
+                        <div class="promo_ad" style="background: url(img/promo_ad.png)">
+                            <h2 class="promo_ad_text_h2">super<br>sale!</h2>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li><a href="#" class="nav_option">KIDS</a></li>
+            <li><a href="#" class="nav_option">accessories</a></li>
+            <li><a href="#" class="nav_option">Featured</a></li>
+            <li><a href="#" class="nav_option">Hot Deals</a></li>
         </ul>
     </nav>
     <section class="promo center">
@@ -201,7 +305,7 @@
     </section>
     <section class="general_info center">
         <div class="info">
-            <a href="#" class="logo"><img src="img/logo.png" alt="logo"><span
+            <a href="index.html" class="logo"><img src="img/logo.png" alt="logo"><span
                     class="brand">BRAN<span>D</span></span></a>
             <p>Objectively transition extensive data rather than cross functional solutions. Monotonectally syndicate
                 multidisciplinary
