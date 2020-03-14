@@ -57,9 +57,11 @@
                         <div class="item_description">
                             <h5>rebox zane</h5>
                             <span class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
-                                    class="fas fa-star"></i><i class="fas fa-star-half-alt"></i><i class="far fa-star"></i>
+                                    class="fas fa-star"></i><i class="fas fa-star-half-alt"></i><i
+                                    class="far fa-star"></i>
                             </span>
-                            <span class="item_count">1</span> <span class="x">x</span> <span class="num_price">$250</span>
+                            <span class="item_count">1</span> <span class="x">x</span> <span
+                                class="num_price">$250</span>
                         </div>
                         <a href="#" class="close_item"><i class="fas fa-times-circle"></i></a>
                     </div>
@@ -68,9 +70,11 @@
                         <div class="item_description">
                             <h5>rebox zane</h5>
                             <span class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
-                                    class="fas fa-star"></i><i class="fas fa-star-half-alt"></i><i class="far fa-star"></i>
+                                    class="fas fa-star"></i><i class="fas fa-star-half-alt"></i><i
+                                    class="far fa-star"></i>
                             </span>
-                            <span class="item_count">1</span> <span class="x">x</span> <span class="num_price">$250</span>
+                            <span class="item_count">1</span> <span class="x">x</span> <span
+                                class="num_price">$250</span>
                         </div>
                         <a href="#" class="close_item"><i class="fas fa-times-circle"></i></a>
                     </div>
@@ -117,7 +121,7 @@
                             <li><a href="#" class="drop__link">Dresses</a></li>
                             <li><a href="#" class="drop__link">Tops</a></li>
                             <li><a href="#" class="drop__link">Sweaters/Knits</a></li>
-    
+
                         </ul>
                     </div>
                     <div class="drop__column">
@@ -208,114 +212,156 @@
         <div class="right-side-container">
             <section class="settings">
                 <div class="trending-box">
-                    <h3>trending now</h3>
-                    Bohemian | Floral | Lace Floral | Lace | Bohemian
+                    <h3 class="settings-h3">trending now</h3>
+                    <a href="#" class="trending-box-links">Bohemian</a>
+                    <a href="#" class="trending-box-links">Floral</a>
+                    <a href="#" class="trending-box-links">Lace</a>
+                    <a href="#" class="trending-box-links">Floral</a>
+                    <a href="#" class="trending-box-links">Lace</a>
+                    <a href="#" class="trending-box-links">Bohemian</a>
                 </div>
                 <div class="size-box">
-                    <h3>size</h3>
+                    <h3 class="settings-h3">size</h3>
                     <form action="#">
-                        <input type="checkbox" name="XXS" id="">XXS
-                        <input type="checkbox" name="XS" id="">XS
-                        <input type="checkbox" name="S" id="">S
-                        <input type="checkbox" name="M" id="">M
-                        <input type="checkbox" name="L" id="">L
-                        <input type="checkbox" name="XL" id="">XL
-                        <input type="checkbox" name="XXL" id="">XXL
+                        <label><input type="checkbox" id="XXS">XXS</label>
+                        <label><input type="checkbox" id="XS">XS</label>
+                        <label><input type="checkbox" id="S">S</label>
+                        <label><input type="checkbox" id="M">M</label>
+                        <label><input type="checkbox" id="L">L</label>
+                        <label><input type="checkbox" id="XL">XL</label>
+                        <label><input type="checkbox" id="XXL">XXL</label>
                     </form>
                 </div>
                 <div class="price-box">
-                    <h3>price</h3>
+                    <h3 class="settings-h3">price</h3>
+                    <input type="range" name="" id="range" min="52" max="400" class="price-box-slider">
+                    <span class="price-box-min-price">$52</span><span class="price-box-max-price">$400</span>
                 </div>
             </section>
             <section class="sort">
                 <form action="#">
-                    <button type="submit">Sort By</button>
-                    <select name="" id="">
+                    <button type="submit" class="sort-form-styles button">Sort By</button>
+                    <select class="sort-form-styles">
                         <option value="name">Name</option>
                         <option value="price">Price</option>
                     </select>
-                    <button type="submit">Show</button>
-                    <select name="" id="">
-                        <option value="9">9</option>
-                        <option value="8">8</option>
-                        <option value="7">7</option>
-                        <option value="6">6</option>
-                        <option value="5">5</option>
-                        <option value="4">4</option>
-                        <option value="3">3</option>
-                        <option value="2">2</option>
-                        <option value="1">1</option>
+                    <button type="submit" class="sort-form-styles button">Show</button>
+                    <select class="sort-form-styles">
+                        <option value="9">09</option>
+                        <option value="8">08</option>
+                        <option value="7">07</option>
+                        <option value="6">06</option>
+                        <option value="5">05</option>
+                        <option value="4">04</option>
+                        <option value="3">03</option>
+                        <option value="2">02</option>
+                        <option value="1">01</option>
                     </select>
                 </form>
             </section>
             <section class="cards_section">
                 <div class="card">
                     <div class="card_img" style="background-image: url(img/card1.png);">
-                        <button class="add_cart button"><img src="img/cart_white.png" alt="cart">Add to Cart</button></div>
+                        <button class="add_cart button"><img src="img/cart_white.png" alt="cart">Add to Cart</button>
+                    </div>
                     <div class="card_text">
                         <a href="#"><b>Mango People T-shirt</b></a><br><br><span><b>$52.00</b></span>
                     </div>
                 </div>
                 <div class="card">
                     <div class="card_img" style="background-image: url(img/card2.png);">
-                        <button class="add_cart button"><img src="img/cart_white.png" alt="cart">Add to Cart</button></div>
+                        <button class="add_cart button"><img src="img/cart_white.png" alt="cart">Add to Cart</button>
+                    </div>
                     <div class="card_text">
                         <a href="#"><b>Mango People T-shirt</b></a><br><br><span><b>$52.00</b></span>
                     </div>
                 </div>
                 <div class="card">
                     <div class="card_img" style="background-image: url(img/card3.png);">
-                        <button class="add_cart button"><img src="img/cart_white.png" alt="cart">Add to Cart</button></div>
+                        <button class="add_cart button"><img src="img/cart_white.png" alt="cart">Add to Cart</button>
+                    </div>
                     <div class="card_text">
                         <a href="#"><b>Mango People T-shirt</b></a><br><br><span><b>$52.00</b></span>
                     </div>
                 </div>
                 <div class="card">
                     <div class="card_img" style="background-image: url(img/card4.png);">
-                        <button class="add_cart button"><img src="img/cart_white.png" alt="cart">Add to Cart</button></div>
+                        <button class="add_cart button"><img src="img/cart_white.png" alt="cart">Add to Cart</button>
+                    </div>
                     <div class="card_text">
                         <a href="#"><b>Mango People T-shirt</b></a><br><br><span><b>$52.00</b></span>
                     </div>
                 </div>
                 <div class="card">
                     <div class="card_img" style="background-image: url(img/card5.png);">
-                        <button class="add_cart button"><img src="img/cart_white.png" alt="cart">Add to Cart</button></div>
+                        <button class="add_cart button"><img src="img/cart_white.png" alt="cart">Add to Cart</button>
+                    </div>
                     <div class="card_text">
                         <a href="#"><b>Mango People T-shirt</b></a><br><br><span><b>$52.00</b></span>
                     </div>
                 </div>
                 <div class="card">
                     <div class="card_img" style="background-image: url(img/card6.png);">
-                        <button class="add_cart button"><img src="img/cart_white.png" alt="cart">Add to Cart</button></div>
+                        <button class="add_cart button"><img src="img/cart_white.png" alt="cart">Add to Cart</button>
+                    </div>
                     <div class="card_text">
                         <a href="#"><b>Mango People T-shirt</b></a><br><br><span><b>$52.00</b></span>
                     </div>
                 </div>
                 <div class="card">
                     <div class="card_img" style="background-image: url(img/card7.png);">
-                        <button class="add_cart button"><img src="img/cart_white.png" alt="cart">Add to Cart</button></div>
+                        <button class="add_cart button"><img src="img/cart_white.png" alt="cart">Add to Cart</button>
+                    </div>
                     <div class="card_text">
                         <a href="#"><b>Mango People T-shirt</b></a><br><br><span><b>$52.00</b></span>
                     </div>
                 </div>
                 <div class="card">
                     <div class="card_img" style="background-image: url(img/card8.png);">
-                        <button class="add_cart button"><img src="img/cart_white.png" alt="cart">Add to Cart</button></div>
+                        <button class="add_cart button"><img src="img/cart_white.png" alt="cart">Add to Cart</button>
+                    </div>
                     <div class="card_text">
                         <a href="#"><b>Mango People T-shirt</b></a><br><br><span><b>$52.00</b></span>
                     </div>
                 </div>
                 <div class="card">
                     <div class="card_img" style="background-image: url(img/card8.png);">
-                        <button class="add_cart button"><img src="img/cart_white.png" alt="cart">Add to Cart</button></div>
+                        <button class="add_cart button"><img src="img/cart_white.png" alt="cart">Add to Cart</button>
+                    </div>
                     <div class="card_text">
                         <a href="#"><b>Mango People T-shirt</b></a><br><br><span><b>$52.00</b></span>
                     </div>
                 </div>
             </section>
             <section class="pagination-and-view-all"></section>
-        </div>        
+        </div>
     </main>
+    <section class="feature_box_container center">
+        <div class="feature_box">
+            <div class="feature_box_img"><img src="img/car.png" alt="car"></div>
+            <article class="feature_box_text">
+                <h3>Free Delivery</h3>
+                <p>Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive
+                    models.</p>
+            </article>
+        </div>
+        <div class="feature_box">
+            <div class="feature_box_img"><img src="img/discount.png" alt="car"></div>
+            <article class="feature_box_text">
+                <h3>Sales & discounts</h3>
+                <p>Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive
+                    models.</p>
+            </article>
+        </div>
+        <div class="feature_box">
+            <div class="feature_box_img"><img src="img/crown.png" alt="car"></div>
+            <article class="feature_box_text">
+                <h3>Quality assurance</h3>
+                <p>Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive
+                    models.</p>
+            </article>
+        </div>
+    </section>
     <section class="subscribe center">
         <div class="subscribe_box_left">
             <div class="avatar"><img src="img/avatar.png" alt="avatar"></div>
@@ -337,9 +383,9 @@
                 <input type="email" name="email" placeholder="Enter Your Email">
                 <input type="submit" value="Subscribe" class="button">
             </form>
-    
+
         </div>
-    </section>
+    </section>    
     <section class="general_info center">
         <div class="info">
             <a href="index.html" class="logo"><img src="img/logo.png" alt="logo"><span
@@ -398,7 +444,7 @@
                 <li><a href="#" class="icon"><i class="fab fa-google-plus-g"></i></a></li>
             </ul>
         </div>
-    </footer>    
+    </footer>
 </body>
 
 </html>
