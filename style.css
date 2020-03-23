@@ -134,6 +134,7 @@ header {
   padding: 20px;
   display: none;
   top: 40px;
+  z-index: 1;
 }
 
 .total_sum {
@@ -388,6 +389,7 @@ header {
   border-radius: 5px;
   padding: 20px;
   display: none;
+  z-index: 1;
 }
 
 .drop_mega_menu:hover {
@@ -624,7 +626,6 @@ header {
   height: 379px;
   width: 261px;
   margin-bottom: 30px;
-  background-repeat: no-repeat;
 }
 
 .card:hover {
@@ -652,6 +653,9 @@ header {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #e9e9e9;
 }
 
 .card_img > button {

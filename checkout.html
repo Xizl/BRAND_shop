@@ -1,16 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="checkout_style.css">
     <link href="https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i,900&display=swap"
         rel="stylesheet">
     <script src="https://kit.fontawesome.com/e5e48257d9.js" crossorigin="anonymous"></script>
     <title>BRAND</title>
 </head>
-
 <body>
     <header class="center">
         <div class="left__side">
@@ -57,11 +55,9 @@
                         <div class="item_description">
                             <h5>rebox zane</h5>
                             <span class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
-                                    class="fas fa-star"></i><i class="fas fa-star-half-alt"></i><i
-                                    class="far fa-star"></i>
+                                    class="fas fa-star"></i><i class="fas fa-star-half-alt"></i><i class="far fa-star"></i>
                             </span>
-                            <span class="item_count">1</span> <span class="x">x</span> <span
-                                class="num_price">$250</span>
+                            <span class="item_count">1</span> <span class="x">x</span> <span class="num_price">$250</span>
                         </div>
                         <a href="#" class="close_item"><i class="fas fa-times-circle"></i></a>
                     </div>
@@ -70,11 +66,9 @@
                         <div class="item_description">
                             <h5>rebox zane</h5>
                             <span class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
-                                    class="fas fa-star"></i><i class="fas fa-star-half-alt"></i><i
-                                    class="far fa-star"></i>
+                                    class="fas fa-star"></i><i class="fas fa-star-half-alt"></i><i class="far fa-star"></i>
                             </span>
-                            <span class="item_count">1</span> <span class="x">x</span> <span
-                                class="num_price">$250</span>
+                            <span class="item_count">1</span> <span class="x">x</span> <span class="num_price">$250</span>
                         </div>
                         <a href="#" class="close_item"><i class="fas fa-times-circle"></i></a>
                     </div>
@@ -121,7 +115,7 @@
                             <li><a href="#" class="drop__link">Dresses</a></li>
                             <li><a href="#" class="drop__link">Tops</a></li>
                             <li><a href="#" class="drop__link">Sweaters/Knits</a></li>
-
+    
                         </ul>
                     </div>
                     <div class="drop__column">
@@ -144,141 +138,65 @@
             <li><a href="product.html" class="nav_option">Hot Deals</a></li>
         </ul>
     </nav>
-    <section class="promo center">
-        <div class="promo_text">
-            <h1>THE BRAND</h1>
-            <h2>OF LUXERIOUS <span>FASHION</span></h2>
-        </div>
+    <section class="breadcrumb center">
+        <h1>New Arrivals</h1>
+        <nav>
+            <a href="#" class="breadcrumb_link">Home</a>
+            <a href="#" class="breadcrumb_link">Men</a>
+            <a href="#" class="breadcrumb_link breadcrumb_link_active">New Arrivals</a>
+        </nav>
     </section>
-    <section class="category center">
-        <div class="category_left_part">
-            <div class="big_box man">
-                <div class="category_text">
-                    <h2>hot deal</h2>
-                    <h1>for men</h1>
+    <main class="checkout-main-container center">
+        <details class="checkout-main-container-details" open>
+            <summary class="button">01. Shipping Address</summary>
+            <div class="checkout-main-container-details-box">
+                <div class="checkout-main-container-details-box-left">
+                    <h3 class="checkout-main-container-details-box-h3">Check as a guest or register</h3>
+                    <p class="checkout-main-container-details-box-p">Register with us for future convenience</p>
+                    <form action="#">
+                        <label><input type="radio" name="register-or-not" id="checkout-as-guest" value="checkout-as-guest">checkout as guest</label><br>
+                        <label><input type="radio" name="register-or-not" id="register" value="register" checked>register</label>
+                    </form>                    
+                    <h3 class="checkout-main-container-details-box-h3">register and save time!</h3>
+                    <p class="checkout-main-container-details-box-p">Register with us for future convenience</p>
+                    <br>
+                    <p class="checkout-main-container-details-box-p">&gt;&gt; Fast and easy checkout</p><br>
+                    <p class="checkout-main-container-details-box-p">&gt;&gt; Easy access to your order history and status</p>
+                    <br><br>
+                    <a href="#" class="checkout-main-container-details-box-button button">continue</a>
                 </div>
-            </div>
-            <div class="small_box accesorie">
-                <div class="category_text">
-                    <h2>LUXIROUS & trendy</h2>
-                    <h1>accessories</h1>
-                </div>
-            </div>
-        </div>
-        <div class="category_right_part">
-            <div class="small_box woman">
-                <div class="category_text">
-                    <h2>30% offer</h2>
-                    <h1>women</h1>
-                </div>
-            </div>
-            <div class="big_box kid">
-                <div class="category_text">
-                    <h2>new arrivals</h2>
-                    <h1>for kids</h1>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="product center">
-        <div class="product_text">
-            <h2>Featured Items</h2><span><b>Shop for items based on what we featured in this week</b></span>
-        </div>
-        <div class="cards_section">
-            <div class="card">
-                <div class="card_img" style="background-image: url(img/card1.png);">
-                    <button class="add_cart button"><img src="img/cart_white.png" alt="cart">Add to Cart</button></div>
-                <div class="card_text">
-                        <a href="single.html"><b>Mango People T-shirt</b></a><br><br><span><b>$52.00</b></span>
-                </div>
-            </div>
-            <div class="card">
-                <div class="card_img" style="background-image: url(img/card2.png);">
-                    <button class="add_cart button"><img src="img/cart_white.png" alt="cart">Add to Cart</button></div>
-                <div class="card_text">
-                        <a href="single.html"><b>Mango People T-shirt</b></a><br><br><span><b>$52.00</b></span>
-                </div>
-            </div>
-            <div class="card">
-                <div class="card_img" style="background-image: url(img/card3.png);">
-                    <button class="add_cart button"><img src="img/cart_white.png" alt="cart">Add to Cart</button></div>
-                <div class="card_text">
-                        <a href="single.html"><b>Mango People T-shirt</b></a><br><br><span><b>$52.00</b></span>
-                </div>
-            </div>
-            <div class="card">
-                <div class="card_img" style="background-image: url(img/card4.png);">
-                    <button class="add_cart button"><img src="img/cart_white.png" alt="cart">Add to Cart</button></div>
-                <div class="card_text">
-                        <a href="single.html"><b>Mango People T-shirt</b></a><br><br><span><b>$52.00</b></span>
-                </div>
-            </div>
-            <div class="card">
-                <div class="card_img" style="background-image: url(img/card5.png);">
-                    <button class="add_cart button"><img src="img/cart_white.png" alt="cart">Add to Cart</button></div>
-                <div class="card_text">
-                        <a href="single.html"><b>Mango People T-shirt</b></a><br><br><span><b>$52.00</b></span>
-                </div>
-            </div>
-            <div class="card">
-                <div class="card_img" style="background-image: url(img/card6.png);">
-                    <button class="add_cart button"><img src="img/cart_white.png" alt="cart">Add to Cart</button></div>
-                <div class="card_text">
-                        <a href="single.html"><b>Mango People T-shirt</b></a><br><br><span><b>$52.00</b></span>
-                </div>
-            </div>
-            <div class="card">
-                <div class="card_img" style="background-image: url(img/card7.png);">
-                    <button class="add_cart button"><img src="img/cart_white.png" alt="cart">Add to Cart</button></div>
-                <div class="card_text">
-                        <a href="single.html"><b>Mango People T-shirt</b></a><br><br><span><b>$52.00</b></span>
-                </div>
-            </div>
-            <div class="card">
-                <div class="card_img" style="background-image: url(img/card8.png);">
-                    <button class="add_cart button"><img src="img/cart_white.png" alt="cart">Add to Cart</button></div>
-                <div class="card_text">
-                        <a href="single.html"><b>Mango People T-shirt</b></a><br><br><span><b>$52.00</b></span>
-                </div>
-            </div>
+                <div class="checkout-main-container-details-box-right">
+                    <h3 class="checkout-main-container-details-box-h3">Already registed?</h3>
+                    <p class="checkout-main-container-details-box-p">Please log in below</p>
+                    <form action="#">
+                        <h4 class="checkout-main-container-details-box-h4 required">email address</h4>
+                        <input type="email" name="email" id="email-box" required>
+                        <h4 class="checkout-main-container-details-box-h4 required">password</h4>
+                        <input type="password" name="password" id="password-box" required>
+                        <p class="checkout-main-container-details-box-p-red">*Required Fields</p>
+                        <a href="#" class="checkout-main-container-details-box-button button">log in</a>
+                        <a href="#" class="checkout-main-container-details-box-h3">Forgot Password?</a>
+                    </form>
 
-
-        </div>
-        <a href="#" class="browse_all_product button pink_button">Browse All Product <i
-                class="fas fa-long-arrow-alt-right"></i></a>
-    </section>
-    <section class="feature center">
-        <div class="banner">
-            <h1>30% <span>OFFER</span></h1>
-            <h3>FOR WOMEN</h3>
-        </div>
-        <div class="feature_box_container">
-            <div class="feature_box">
-                <div class="feature_box_img"><img src="img/car.png" alt="car"></div>
-                <article class="feature_box_text">
-                    <h3>Free Delivery</h3>
-                    <p>Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive
-                        models.</p>
-                </article>
+                </div>
             </div>
-            <div class="feature_box">
-                <div class="feature_box_img"><img src="img/discount.png" alt="car"></div>
-                <article class="feature_box_text">
-                    <h3>Sales & discounts</h3>
-                    <p>Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive
-                        models.</p>
-                </article>
-            </div>
-            <div class="feature_box">
-                <div class="feature_box_img"><img src="img/crown.png" alt="car"></div>
-                <article class="feature_box_text">
-                    <h3>Quality assurance</h3>
-                    <p>Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive
-                        models.</p>
-                </article>
-            </div>
-        </div>
-    </section>
+        </details>
+        <details class="checkout-main-container-details">
+            <summary>02. billing information</summary>
+        </details>
+        <details class="checkout-main-container-details">
+            <summary>03. shipping information</summary>
+        </details>
+        <details class="checkout-main-container-details">
+            <summary>04. shipping method</summary>
+        </details>
+        <details class="checkout-main-container-details">
+            <summary>05. payment method</summary>
+        </details>
+        <details class="checkout-main-container-details">
+            <summary>06. order review</summary>
+        </details>
+    </main>
     <section class="subscribe center">
         <div class="subscribe_box_left">
             <div class="avatar"><img src="img/avatar.png" alt="avatar"></div>
@@ -300,7 +218,7 @@
                 <input type="email" name="email" placeholder="Enter Your Email">
                 <input type="submit" value="Subscribe" class="button">
             </form>
-
+    
         </div>
     </section>
     <section class="general_info center">
@@ -361,7 +279,6 @@
                 <li><a href="#" class="icon"><i class="fab fa-google-plus-g"></i></a></li>
             </ul>
         </div>
-    </footer>
+    </footer>    
 </body>
-
 </html>

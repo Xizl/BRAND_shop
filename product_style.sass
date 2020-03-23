@@ -72,13 +72,24 @@
         margin-right: 9px       
     label
 
+.trending-box
+    width: 176px        
+    &-links
+        text-decoration: none
+        @extend %font-settings
+        line-height: 26px
+        &:not(:nth-of-type(3n+3)):after
+            content: " | "
+            color: #dfdfdf    
+
 %price-box-slider-thumb
     appearance: none
     width: 14px
     height: 14px
     border-radius: 50%
     background: $color_auxiliary
-    cursor: pointer
+    border: 1px solid $color_auxiliary
+    cursor: pointer    
 
 .price-box
     width: 263px
@@ -98,7 +109,7 @@
         outline: none
         opacity: 0.7
         -webkit-transition: .2s
-        transition: opacity .2s
+        transition: opacity .2s        
         &:hover 
             opacity: 1
         &::-webkit-slider-thumb 
@@ -106,16 +117,6 @@
             @extend %price-box-slider-thumb            
         &::-moz-range-thumb 
             @extend %price-box-slider-thumb              
-
-.trending-box
-    width: 176px        
-    &-links
-        text-decoration: none
-        @extend %font-settings
-        line-height: 26px
-        &:not(:nth-of-type(3n+3)):after
-            content: " | "
-            color: #dfdfdf            
 
 .sort
     height: 50px
@@ -137,6 +138,44 @@
     form select
         margin-left: -3px
         margin-right: 10px
+
+.pagination-and-view-all
+    margin-bottom: 110px
+    display: flex
+    justify-content: space-between
+
+.pagination
+    border: 1px solid #ebebeb
+    border-radius: 3px
+    padding: auto 0
+    display: flex
+    align-items: center
+    &-ul
+        display: flex        
+        list-style: none             
+    &-li a
+        text-decoration: none
+        font-size: 16px        
+        color: #c4c4c4
+        line-height: 26px
+        padding: 9px 9px
+        &:hover
+           color: #ef5b70 
+    &-active>a
+        color: #ef5b70
+
+.view-all
+    height: 44px
+    width: 150px
+    font-size: 16px
+    font-weight: 300
+    color: #ef5b70
+    line-height: 26px
+    background-color: #fff
+    border: 1px solid #ef5b70
+    &:hover
+        background-color: #ef5b70
+        color: #fff
 
 .feature_box_container
     @extend %feature_box_container
@@ -163,3 +202,6 @@
 
 @import cards_style
 @import subscribe_and_footer
+
+.subscribe
+    margin-top: 0
