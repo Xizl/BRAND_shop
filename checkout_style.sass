@@ -2,6 +2,11 @@
 @import header
 @import breadcrumb
 
+%flex-column-sb
+    display: flex
+    flex-direction: column
+    justify-content: space-between
+
 .checkout-main-container
     margin: 58px 0    
     &-details        
@@ -16,7 +21,10 @@
         &-box
             margin-top: 40px
             padding-left: 36px
-            display: flex            
+            display: flex 
+            &-h2
+                font-size: 14px
+                color: #222222
             &-h3,
             &-h4
                 font-size: 13px
@@ -29,10 +37,12 @@
                 font-size: 13px
                 color: #b3b2b2
                 &-red
-                    color: #ff0d0d
-                    margin-bottom: 32px            
-            .checkout-main-container-details-box-left form
-                margin: 34px 0                    
+                    color: #ff0d0d                                   
+            &-left
+                @extend %flex-column-sb
+                margin-right: 290px
+                form
+                    margin: 34px 0                    
                 label
                     height: 14px
                     display: flex
@@ -42,20 +52,29 @@
                     text-transform: uppercase
                     input[type="radio"]
                         margin-right: 15px
-            .checkout-main-container-details-box-right form
-                margin-top: 27px
+            &-right
+                @extend %flex-column-sb
+                form
+                    margin-top: 27px
                 input[required]
                     width: 390px
                     height: 45px
                     background-color: #ffffff
                     border: 1px solid #eaeaea
                     margin-bottom: 22px
+                    padding: 0 16px
                 .required::after
                     content: "*"
                     font-size: 17px
-                    color: #ff0d0d                
+                    color: #ff0d0d
+                &-button-box  
+                    display: flex  
+                    align-items: center
+                    margin-top: 34px
+                    &-link:hover
+                        color: $color_auxiliary
             &-button
-                text-decoration: none
+                text-decoration: none                
                 width: 180px
                 height: 50px
                 font-size: 14px
@@ -66,11 +85,10 @@
                 border: 1px solid #eaeaea
                 display: flex
                 justify-content: center
-                align-items: center
+                align-items: center                
                 &:hover
                     border: 1px solid $color_auxiliary
-                
-
+                    color: $color_auxiliary
 
 @import cards_style
 @import subscribe_and_footer

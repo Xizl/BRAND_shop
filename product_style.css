@@ -541,6 +541,10 @@ header {
           align-items: center;
 }
 
+.side-nav-details-summary::-webkit-details-marker {
+  display: none;
+}
+
 .side-nav-details-summary:hover {
   cursor: pointer;
   color: #ef5b70;
@@ -651,7 +655,6 @@ header {
 }
 
 .price-box-slider {
-  -webkit-appearance: none;
   width: 100%;
   height: 6px;
   border-radius: 3px;
@@ -669,6 +672,9 @@ header {
 
 .price-box-slider::-webkit-slider-thumb {
   -webkit-appearance: none;
+  margin-top: -14px;
+  -webkit-box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+          box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
 }
 
 .sort {
