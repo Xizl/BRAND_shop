@@ -127,6 +127,12 @@ header {
   left: 24px;
 }
 
+.my_account {
+  height: 38px;
+  width: 130px;
+  margin-left: 26px;
+}
+
 .my_account_drop_down_menu {
   position: absolute;
   background-color: #ffffff;
@@ -134,7 +140,33 @@ header {
   padding: 20px;
   display: none;
   top: 40px;
-  z-index: 1;
+  z-index: 2;
+}
+
+.my_account_drop_down_menu_button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 50px;
+  width: 225px;
+  border: 1px solid #eaeaea;
+  font-size: 14px;
+  font-weight: bold;
+  color: #4a4a4a;
+  text-transform: uppercase;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 12px;
+  z-index: 3;
+}
+
+.my_account_drop_down_menu_button:hover {
+  color: #f16d7f;
+  border: 1px solid #f16d7f;
 }
 
 .total_sum {
@@ -162,7 +194,6 @@ header {
 
 .item > a > img {
   height: 85px;
-  width: 72px;
 }
 
 .item_description {
@@ -192,38 +223,14 @@ header {
 }
 
 .close_item {
-  text-decoration: none;
   font-size: 16px;
   color: #c0c0c0;
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
   margin-left: auto;
-}
-
-.my_account_drop_down_menu_button {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  height: 50px;
-  width: 225px;
-  border: 1px solid #eaeaea;
-  font-size: 14px;
-  font-weight: bold;
-  color: #4a4a4a;
-  text-transform: uppercase;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  margin-top: 12px;
-}
-
-.my_account_drop_down_menu_button:hover {
-  color: #f16d7f;
-  border: 1px solid #f16d7f;
+  border: none;
+  background-color: inherit;
 }
 
 .brand {
@@ -325,16 +332,6 @@ header {
 
 .search_button:hover {
   background-color: #f6f6f6;
-}
-
-.my_account {
-  height: 38px;
-  width: 130px;
-  margin-left: 26px;
-}
-
-.my_account:focus ~ .my_account_drop_down_menu {
-  display: block;
 }
 
 .menu {
